@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'creating_multiple_objects' target in the 'creating_multiple_objects' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
