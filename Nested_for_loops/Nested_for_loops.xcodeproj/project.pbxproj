@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7FAED78164D0DB200A963BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FAED77164D0DB200A963BF /* Foundation.framework */; };
+		D7FAED7B164D0DB200A963BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FAED7A164D0DB200A963BF /* main.m */; };
+		D7FAED7F164D0DB200A963BF /* Nested_for_loops.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7FAED7E164D0DB200A963BF /* Nested_for_loops.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7FAED71164D0DB200A963BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D7FAED7F164D0DB200A963BF /* Nested_for_loops.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7FAED73164D0DB200A963BF /* Nested_for_loops */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Nested_for_loops; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FAED77164D0DB200A963BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D7FAED7A164D0DB200A963BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7FAED7D164D0DB200A963BF /* Nested_for_loops-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nested_for_loops-Prefix.pch"; sourceTree = "<group>"; };
+		D7FAED7E164D0DB200A963BF /* Nested_for_loops.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Nested_for_loops.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7FAED70164D0DB200A963BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FAED78164D0DB200A963BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7FAED68164D0DB200A963BF = {
+			isa = PBXGroup;
+			children = (
+				D7FAED79164D0DB200A963BF /* Nested_for_loops */,
+				D7FAED76164D0DB200A963BF /* Frameworks */,
+				D7FAED74164D0DB200A963BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7FAED74164D0DB200A963BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAED73164D0DB200A963BF /* Nested_for_loops */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7FAED76164D0DB200A963BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAED77164D0DB200A963BF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7FAED79164D0DB200A963BF /* Nested_for_loops */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAED7A164D0DB200A963BF /* main.m */,
+				D7FAED7E164D0DB200A963BF /* Nested_for_loops.1 */,
+				D7FAED7C164D0DB200A963BF /* Supporting Files */,
+			);
+			path = Nested_for_loops;
+			sourceTree = "<group>";
+		};
+		D7FAED7C164D0DB200A963BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7FAED7D164D0DB200A963BF /* Nested_for_loops-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7FAED72164D0DB200A963BF /* Nested_for_loops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FAED82164D0DB200A963BF /* Build configuration list for PBXNativeTarget "Nested_for_loops" */;
+			buildPhases = (
+				D7FAED6F164D0DB200A963BF /* Sources */,
+				D7FAED70164D0DB200A963BF /* Frameworks */,
+				D7FAED71164D0DB200A963BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nested_for_loops;
+			productName = Nested_for_loops;
+			productReference = D7FAED73164D0DB200A963BF /* Nested_for_loops */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7FAED6A164D0DB200A963BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = USER;
+			};
+			buildConfigurationList = D7FAED6D164D0DB200A963BF /* Build configuration list for PBXProject "Nested_for_loops" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D7FAED68164D0DB200A963BF;
+			productRefGroup = D7FAED74164D0DB200A963BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FAED72164D0DB200A963BF /* Nested_for_loops */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7FAED6F164D0DB200A963BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FAED7B164D0DB200A963BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D7FAED80164D0DB200A963BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D7FAED81164D0DB200A963BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D7FAED83164D0DB200A963BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nested_for_loops/Nested_for_loops-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7FAED84164D0DB200A963BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nested_for_loops/Nested_for_loops-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7FAED6D164D0DB200A963BF /* Build configuration list for PBXProject "Nested_for_loops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FAED80164D0DB200A963BF /* Debug */,
+				D7FAED81164D0DB200A963BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FAED82164D0DB200A963BF /* Build configuration list for PBXNativeTarget "Nested_for_loops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FAED83164D0DB200A963BF /* Debug */,
+				D7FAED84164D0DB200A963BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7FAED6A164D0DB200A963BF /* Project object */;
+}
