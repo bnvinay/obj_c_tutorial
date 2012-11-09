@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'do_statement' target in the 'do_statement' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
