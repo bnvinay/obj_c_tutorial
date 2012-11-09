@@ -13,11 +13,12 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
+        // declaring  the  variable as integer
         int n1 = 43;
         int n2 = 22;
-        int sum = n1 + n2;
+        int sum = n1 + n2;  // adding two integers
         
-        NSLog(@"the sum of %i and %i is %i", n1, n2, sum);
+        NSLog(@"the sum of %i and %i is %i", n1, n2, sum);    // printing the variables
         
     }
     return 0;
