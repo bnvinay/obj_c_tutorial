@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'scanf_and_increment_operator' target in the 'scanf_and_increment_operator' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
