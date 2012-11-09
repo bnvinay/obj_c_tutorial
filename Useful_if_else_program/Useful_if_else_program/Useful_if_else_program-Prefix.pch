@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Useful_if_else_program' target in the 'Useful_if_else_program' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
