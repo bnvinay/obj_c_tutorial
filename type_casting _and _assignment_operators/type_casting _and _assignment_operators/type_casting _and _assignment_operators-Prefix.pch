@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'type_casting _and _assignment_operators' target in the 'type_casting _and _assignment_operators' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

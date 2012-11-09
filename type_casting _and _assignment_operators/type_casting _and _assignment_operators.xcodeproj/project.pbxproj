@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED45072164D195000841065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED45071164D195000841065 /* Foundation.framework */; };
+		CED45075164D195000841065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED45074164D195000841065 /* main.m */; };
+		CED45079164D195000841065 /* type_casting__and__assignment_operators.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CED45078164D195000841065 /* type_casting__and__assignment_operators.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CED4506B164D195000841065 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CED45079164D195000841065 /* type_casting__and__assignment_operators.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CED4506D164D195000841065 /* type_casting _and _assignment_operators */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "type_casting _and _assignment_operators"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED45071164D195000841065 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CED45074164D195000841065 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CED45077164D195000841065 /* type_casting _and _assignment_operators-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "type_casting _and _assignment_operators-Prefix.pch"; sourceTree = "<group>"; };
+		CED45078164D195000841065 /* type_casting__and__assignment_operators.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = type_casting__and__assignment_operators.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED4506A164D195000841065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED45072164D195000841065 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED45062164D195000841065 = {
+			isa = PBXGroup;
+			children = (
+				CED45073164D195000841065 /* type_casting _and _assignment_operators */,
+				CED45070164D195000841065 /* Frameworks */,
+				CED4506E164D195000841065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED4506E164D195000841065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED4506D164D195000841065 /* type_casting _and _assignment_operators */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED45070164D195000841065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CED45071164D195000841065 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED45073164D195000841065 /* type_casting _and _assignment_operators */ = {
+			isa = PBXGroup;
+			children = (
+				CED45074164D195000841065 /* main.m */,
+				CED45078164D195000841065 /* type_casting__and__assignment_operators.1 */,
+				CED45076164D195000841065 /* Supporting Files */,
+			);
+			path = "type_casting _and _assignment_operators";
+			sourceTree = "<group>";
+		};
+		CED45076164D195000841065 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED45077164D195000841065 /* type_casting _and _assignment_operators-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED4506C164D195000841065 /* type_casting _and _assignment_operators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED4507C164D195000841065 /* Build configuration list for PBXNativeTarget "type_casting _and _assignment_operators" */;
+			buildPhases = (
+				CED45069164D195000841065 /* Sources */,
+				CED4506A164D195000841065 /* Frameworks */,
+				CED4506B164D195000841065 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "type_casting _and _assignment_operators";
+			productName = "type_casting _and _assignment_operators";
+			productReference = CED4506D164D195000841065 /* type_casting _and _assignment_operators */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED45064164D195000841065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = User;
+			};
+			buildConfigurationList = CED45067164D195000841065 /* Build configuration list for PBXProject "type_casting _and _assignment_operators" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CED45062164D195000841065;
+			productRefGroup = CED4506E164D195000841065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED4506C164D195000841065 /* type_casting _and _assignment_operators */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED45069164D195000841065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED45075164D195000841065 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CED4507A164D195000841065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CED4507B164D195000841065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CED4507D164D195000841065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "type_casting _and _assignment_operators/type_casting _and _assignment_operators-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CED4507E164D195000841065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "type_casting _and _assignment_operators/type_casting _and _assignment_operators-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED45067164D195000841065 /* Build configuration list for PBXProject "type_casting _and _assignment_operators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED4507A164D195000841065 /* Debug */,
+				CED4507B164D195000841065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED4507C164D195000841065 /* Build configuration list for PBXNativeTarget "type_casting _and _assignment_operators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED4507D164D195000841065 /* Debug */,
+				CED4507E164D195000841065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED45064164D195000841065 /* Project object */;
+}
