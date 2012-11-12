@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'object_in_seperate_files' target in the 'object_in_seperate_files' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
