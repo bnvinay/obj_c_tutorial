@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'overriding_methods' target in the 'overriding_methods' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
