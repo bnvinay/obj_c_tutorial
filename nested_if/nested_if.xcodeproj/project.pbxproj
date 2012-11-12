@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFB2FFF1650BAD800EF38B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFB2FFE1650BAD800EF38B3 /* Foundation.framework */; };
+		CEFB30021650BAD800EF38B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFB30011650BAD800EF38B3 /* main.m */; };
+		CEFB30061650BAD800EF38B3 /* nested_if.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEFB30051650BAD800EF38B3 /* nested_if.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEFB2FF81650BAD800EF38B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CEFB30061650BAD800EF38B3 /* nested_if.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEFB2FFA1650BAD800EF38B3 /* nested_if */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nested_if; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFB2FFE1650BAD800EF38B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEFB30011650BAD800EF38B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEFB30041650BAD800EF38B3 /* nested_if-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nested_if-Prefix.pch"; sourceTree = "<group>"; };
+		CEFB30051650BAD800EF38B3 /* nested_if.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = nested_if.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFB2FF71650BAD800EF38B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFB2FFF1650BAD800EF38B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFB2FEF1650BAD800EF38B3 = {
+			isa = PBXGroup;
+			children = (
+				CEFB30001650BAD800EF38B3 /* nested_if */,
+				CEFB2FFD1650BAD800EF38B3 /* Frameworks */,
+				CEFB2FFB1650BAD800EF38B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFB2FFB1650BAD800EF38B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB2FFA1650BAD800EF38B3 /* nested_if */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFB2FFD1650BAD800EF38B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB2FFE1650BAD800EF38B3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFB30001650BAD800EF38B3 /* nested_if */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB30011650BAD800EF38B3 /* main.m */,
+				CEFB30051650BAD800EF38B3 /* nested_if.1 */,
+				CEFB30031650BAD800EF38B3 /* Supporting Files */,
+			);
+			path = nested_if;
+			sourceTree = "<group>";
+		};
+		CEFB30031650BAD800EF38B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB30041650BAD800EF38B3 /* nested_if-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFB2FF91650BAD800EF38B3 /* nested_if */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFB30091650BAD800EF38B3 /* Build configuration list for PBXNativeTarget "nested_if" */;
+			buildPhases = (
+				CEFB2FF61650BAD800EF38B3 /* Sources */,
+				CEFB2FF71650BAD800EF38B3 /* Frameworks */,
+				CEFB2FF81650BAD800EF38B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nested_if;
+			productName = nested_if;
+			productReference = CEFB2FFA1650BAD800EF38B3 /* nested_if */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFB2FF11650BAD800EF38B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = User;
+			};
+			buildConfigurationList = CEFB2FF41650BAD800EF38B3 /* Build configuration list for PBXProject "nested_if" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEFB2FEF1650BAD800EF38B3;
+			productRefGroup = CEFB2FFB1650BAD800EF38B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFB2FF91650BAD800EF38B3 /* nested_if */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFB2FF61650BAD800EF38B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFB30021650BAD800EF38B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEFB30071650BAD800EF38B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEFB30081650BAD800EF38B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEFB300A1650BAD800EF38B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nested_if/nested_if-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEFB300B1650BAD800EF38B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nested_if/nested_if-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFB2FF41650BAD800EF38B3 /* Build configuration list for PBXProject "nested_if" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB30071650BAD800EF38B3 /* Debug */,
+				CEFB30081650BAD800EF38B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFB30091650BAD800EF38B3 /* Build configuration list for PBXNativeTarget "nested_if" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB300A1650BAD800EF38B3 /* Debug */,
+				CEFB300B1650BAD800EF38B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFB2FF11650BAD800EF38B3 /* Project object */;
+}
