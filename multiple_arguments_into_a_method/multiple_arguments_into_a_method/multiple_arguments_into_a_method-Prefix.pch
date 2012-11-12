@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'multiple_arguments_into_a_method' target in the 'multiple_arguments_into_a_method' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
