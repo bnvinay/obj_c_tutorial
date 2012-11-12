@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'XYpoints_for_rectangle' target in the 'XYpoints_for_rectangle' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
