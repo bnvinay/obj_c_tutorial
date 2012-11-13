@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'directive_and_controlled_variables' target in the 'directive_and_controlled_variables' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
