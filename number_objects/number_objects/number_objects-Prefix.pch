@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'number_objects' target in the 'number_objects' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

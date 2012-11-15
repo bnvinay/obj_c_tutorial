@@ -1,6 +1,7 @@
 #import <Foundation/Foundation.h>
 #define PI 3.14159 // the #define function replaces the value to PI
 #define TWOPI 2*PI // it can be referenced to other defines
+#define AND && // the define statement just replaces vales whenever the keyword is present
 
 int main(int argc, const char * argv[])
 {
