@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'define_statements' target in the 'define_statements' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
