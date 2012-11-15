@@ -18,7 +18,7 @@ int main(int argc, const char * argv[])
             return 1;
         }
         
-        //get size of newfile2
+        //get size of testfile
         NSDictionary *dic;
         if((dic=[manager attributesOfItemAtPath:@"/Users/user/Desktop/testfile" error:NULL])==nil){
             NSLog(@"couldnt get the file attributes!");
