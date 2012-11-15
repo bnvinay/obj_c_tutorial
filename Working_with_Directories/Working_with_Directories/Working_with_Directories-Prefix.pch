@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Working_with_Directories' target in the 'Working_with_Directories' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
