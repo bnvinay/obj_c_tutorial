@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'working_with_file_attributes' target in the 'working_with_file_attributes' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
