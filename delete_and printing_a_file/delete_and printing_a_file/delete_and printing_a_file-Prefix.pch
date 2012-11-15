@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'delete_and printing_a_file' target in the 'delete_and printing_a_file' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
